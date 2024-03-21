@@ -1,0 +1,433 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"); */
+
+@import url("https://fonts.googleapis.com/css2?family=Yantramanav:wght@300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: "Poppins", sans-serif; */
+  font-family: "Yantramanav", sans-serif;
+  text-decoration: none;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  background-color: #ffffff;
+}
+
+.navbar {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  /* justify-content: center; */
+  padding: 0.8rem 0;
+  align-items: center;
+}
+
+.nav-logo {
+  align-items: center;
+  padding-left: 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #3e21de;
+  cursor: pointer;
+  z-index: 99;
+}
+
+.nav-menu {
+  display: flex;
+  padding-right: 0;
+  align-items: center;
+}
+
+.nav-item:nth-child(5) {
+  padding-right: 0;
+}
+
+.nav-item {
+  padding: 0.5rem 1rem;
+}
+
+.nav-link {
+  color: #343d48;
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  color: #3e21de;
+}
+
+.login-btn {
+  background-color: #3e21de;
+  border-radius: 0.2rem;
+  padding: 0.5rem 1rem;
+  color: #ffffff;
+}
+
+.login-btn:hover {
+  background-color: #5268db;
+  color: #ffffff;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.material-icons {
+  color: #3e21de;
+  padding-top: 0.7rem;
+}
+
+/* ==================================================>>
+main section 
+<<===================================================*/
+
+.container {
+  max-width: 85%;
+  margin: auto;
+}
+
+.heroSection {
+  display: flex;
+  height: 100vh;
+}
+
+.sectionRight,
+.sectionLeft {
+  width: 40%;
+  margin: auto;
+}
+
+.raviImg {
+  width: 25rem;
+  height: 25rem;
+}
+
+.sectionLeft h1 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  word-spacing: 0.1rem;
+}
+
+.sectionLeft p {
+  font-size: 1.25rem;
+  color: #3b3e4d;
+  margin-top: 1rem;
+  text-align: justify;
+  /* text-align-last: center; */
+}
+
+.contact-btn {
+  all: unset;
+  padding: 0.5rem 1rem;
+  background-color: #3e21de;
+  color: white;
+  border-radius: 0.2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 2rem;
+}
+
+.contact-btn span {
+  font-size: 0.625rem;
+  font-weight: 500;
+}
+
+
+
+
+
+
+.services{
+  /* margin: 4rem; */
+  padding: 4rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f7f7f7;
+
+}
+
+.services .container{
+  width: 80%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+
+.servicesh2{
+  font-size: 2.5rem;
+  /* margin-bottom: 2rem; */
+  color: #3E21DE;
+}
+
+.services-list{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem 2rem;
+  justify-content: center;
+  margin: 4rem auto;
+  
+
+}
+
+.services-list h2{
+  font-size: 1.5rem;
+  color: #32325D;
+  margin-bottom: 1rem;
+}
+
+.services-list p{
+  color: #343D48;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+
+.services-items img{
+  margin-bottom: 2rem;
+}
+
+
+
+
+.contactUs {
+  /* background-color: #f7f7f7; */
+  padding: 4rem;
+}
+
+.contactUs h2 {
+  text-align: center;
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: #3E21DE;
+  /* border-bottom: 3px solid #3e21de; */
+}
+
+.address-call-email {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 4rem auto;
+  /* margin-bottom: 3rem;
+  margin-top: 2rem; */
+}
+
+.ace-div {
+  flex-basis: 25%;
+  flex-grow: 0;
+}
+
+.address-call-email h3 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #32325D;
+  padding: 1rem 0;
+}
+
+.address-call-email span,
+a {
+  font-size: 1rem;
+  color: #343D48;
+  font-weight: 400;
+}
+
+.ace-div {
+  border-left: 1px solid #3e21de;
+  padding-left: 1rem;
+}
+
+
+
+.google-map {
+  width: 90%;
+  padding-bottom: 3rem;
+  margin: auto;
+}
+
+.google-map iframe {
+  left: 0;
+  top: 0;
+}
+
+footer {
+  height: 3rem;
+  background-color: #25282C;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer p {
+  color: white;
+}
+
+footer p span {
+  color: red;
+}
+
+footer p a {
+  color: #3e21de;
+}
+
+@media (max-width: 800px) {
+  .navbar {
+    position: relative;
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .hamburger {
+    display: block;
+    z-index: 98;
+  }
+
+  .nav-menu {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background-color: #ffffff;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    transform: translateX(100%);
+  }
+
+  .nav-item {
+    margin-top: 1rem;
+  }
+
+  .nav-item:nth-child(5) {
+    padding-right: 1.5rem;
+  }
+
+  .active .nav-menu {
+    transform: translateX(0);
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .heroSection {
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .sectionRight,
+  .sectionLeft {
+    width: 100%;
+  }
+
+  .sectionLeft {
+    margin-top: 0;
+    padding: 0.5rem;
+  }
+
+  .sectionRight {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .raviImg {
+    width: 20rem;
+    height: 20rem;
+  }
+
+  .contact-btn span {
+    color: cyan;
+  }
+
+  .sectionLeft h1 {
+    font-size: 2rem;
+    display: flex;
+    text-align: center;
+  }
+
+  .sectionLeft p {
+    font-size: 1.25rem;
+    margin-top: 0.5rem;
+    text-align: justify;
+    text-align-last: center;
+  }
+
+  .contact-btn {
+    font-size: 1rem;
+    font-weight: 500;
+
+    display: block;
+    margin: auto;
+
+    margin-top: 2rem;
+  }
+
+  .contact-btn span {
+    font-size: 0.625rem;
+    font-weight: 500;
+  }
+
+  .address-call-email {
+    flex-direction: column;
+  }
+
+  .ace-div {
+    margin-top: 2rem;
+  }
+
+  .address-call-email h3 {
+    padding: 0;
+  }
+}
+
+
+.cont{
+  width: 30%;
+  height: 50vh;
+  margin: 4rem auto;
+  background-color: #3E21DE;
+  padding: 2rem;
+}
+
+.cont input{
+  all: unset;
+  width: 100%;
+  height: 100%;
+  padding: 0 1rem;
+}
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px white inset;
+  background-color: transparent;
+}
+/* .input-div{
+  width: 80%;
+  height: 3rem;
+  background-color: #f7f7f7;
+  margin: 2rem;
+  border-radius: 0.8rem;
+} */
