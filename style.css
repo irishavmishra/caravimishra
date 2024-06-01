@@ -431,3 +431,31 @@ input:-webkit-autofill {
   margin: 2rem;
   border-radius: 0.8rem;
 } */
+
+/* Accordion */
+
+.accordion {
+  width: 80%;
+  margin: 20px auto;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+}
+.accordion-item {
+  border-bottom: 1px solid #ddd;
+}
+.accordion-item:last-child {
+  border-bottom: none;
+}
+.accordion-title {
+  background-color: #ccc;
+  padding: 15px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px 5px 0 0;
+}
+.accordion-content {
+  display: none;
+  padding: 15px;
+  background-color: white;
+  border-radius: 0 0 5px 5px;
+}
