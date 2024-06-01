@@ -441,26 +441,32 @@ input:-webkit-autofill {
   border-radius: 5px;
 }
 .accordion h2{
-  margin: 10px 0;
+  color: #3E21DE;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
 }
 
 .accordion-item {
-  border-bottom: 1px solid #ddd;
-  margin-bottom: 5px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
 }
 .accordion-item:last-child {
   border-bottom: none;
 }
 .accordion-title {
-  background-color: #ccc;
-  padding: 15px;
+  padding: 1rem;
   cursor: pointer;
-  font-weight: bold;
-  border-radius: 5px 5px 0 0;
+  background-color: #3E21DE;
+  color: white;
+  font-size: 1.25rem;
 }
 .accordion-content {
   display: none;
-  padding: 15px;
-  background-color: white;
-  border-radius: 0 0 5px 5px;
+  padding: 1rem;
+  border-top: 1px solid #ddd;
+  font-size: 1rem;
+  background-color: #f7f7f7;
 }
