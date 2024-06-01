@@ -442,6 +442,7 @@ input:-webkit-autofill {
 }
 .accordion-item {
   border-bottom: 1px solid #ddd;
+  margin-bottom: 5px;
 }
 .accordion-item:last-child {
   border-bottom: none;
