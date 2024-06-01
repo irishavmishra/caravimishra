@@ -437,9 +437,13 @@ input:-webkit-autofill {
 .accordion {
   width: 80%;
   margin: 20px auto;
-  background-color: #f1f1f1;
+  background-color: #F7F7F7;
   border-radius: 5px;
 }
+.accordion h2{
+  margin: 10px 0;
+}
+
 .accordion-item {
   border-bottom: 1px solid #ddd;
   margin-bottom: 5px;
