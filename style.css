@@ -459,8 +459,8 @@ input:-webkit-autofill {
 .accordion-title {
   padding: 1rem;
   cursor: pointer;
-  background-color: #3E21DE;
-  color: white;
+  background-color: #fff;
+  color: black;
   font-size: 1.25rem;
 }
 .accordion-content {
