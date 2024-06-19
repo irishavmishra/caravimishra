@@ -136,7 +136,7 @@ main section
 }
 
 .contact-btn {
-  all: unset;
+  /* all: unset; */
   padding: 0.5rem 1rem;
   background-color: #3e21de;
   color: white;
@@ -144,6 +144,10 @@ main section
   font-size: 1rem;
   font-weight: 500;
   margin-top: 2rem;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
 }
 
 .contact-btn span {
