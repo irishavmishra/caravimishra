@@ -265,6 +265,7 @@ a {
 
 .google-map {
   width: 90%;
+  height: 50vh;
   padding-bottom: 3rem;
   margin: auto;
 }
