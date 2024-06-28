@@ -272,17 +272,15 @@ a {
 
 
 
+
 .google-map {
-  width: 90%;
-  height: 500px; /* Default height for desktop */
-  padding-bottom: 3rem;
-  margin: auto;
+  width: 100%;
+  height: 500px;
 }
 
 /* Responsive design for tablets */
 @media (max-width: 1024px) {
   .google-map {
-    width: 95%;
     height: 400px;
   }
 }
@@ -290,7 +288,6 @@ a {
 /* Responsive design for mobile devices */
 @media (max-width: 768px) {
   .google-map {
-    width: 100%;
     height: 300px;
   }
 }
