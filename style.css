@@ -156,61 +156,70 @@ main section
 }
 
 
+/* ------------Service section----------- */
 
 
 
-
-.services{
-  /* margin: 4rem; */
+.services {
   padding: 4rem;
   display: flex;
   align-items: center;
   flex-direction: column;
   background-color: #f7f7f7;
-
 }
 
-.services .container{
+.services .container {
   width: 80%;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
-
-
-.servicesh2{
+.servicesh2 {
   font-size: 2.5rem;
-  /* margin-bottom: 2rem; */
-  color: #3E21DE;
+  color: #3e21de;
 }
 
-.services-list{
+.services-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 3rem 2rem;
   justify-content: center;
   margin: 4rem auto;
-  
-
 }
 
-.services-list h2{
+.services-list h2 {
   font-size: 1.5rem;
-  color: #32325D;
+  color: black;
   margin-bottom: 1rem;
 }
 
-.services-list p{
-  color: #343D48;
+.services-list p {
+  color: #343d48;
   font-size: 1.25rem;
   font-weight: 400;
 }
 
-
-.services-items img{
+.services-items img {
   margin-bottom: 2rem;
 }
+
+/* Responsive design for tablets */
+@media (max-width: 1024px) {
+  .services-list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem 1rem;
+  }
+}
+
+/* Responsive design for mobile devices */
+@media (max-width: 768px) {
+  .services-list {
+    grid-template-columns: 1fr;
+    gap: 1rem 0.5rem;
+  }
+}
+
 
 
 
