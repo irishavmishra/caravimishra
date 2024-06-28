@@ -105,6 +105,21 @@ main section
   margin: auto;
 }
 
+@media (max-width: 1024px) {
+  .container {
+    max-width: 90%;
+    margin: auto;
+  }
+}
+
+/* Responsive design for mobile devices */
+@media (max-width: 768px) {
+  .container {
+    max-width: 100%;
+    margin: auto;
+  }
+}
+
 .heroSection {
   display: flex;
   height: 100vh;
@@ -281,14 +296,14 @@ a {
 /* Responsive design for tablets */
 @media (max-width: 1024px) {
   .google-map {
-    height: 800px;
+    height: 700px;
   }
 }
 
 /* Responsive design for mobile devices */
 @media (max-width: 768px) {
   .google-map {
-    height: 800px;
+    height: 700px;
   }
 }
 
