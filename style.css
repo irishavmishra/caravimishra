@@ -107,7 +107,7 @@ main section
 
 @media (max-width: 1024px) {
   .container {
-    max-width: 90%;
+    max-width: 85%;
     margin: auto;
   }
 }
@@ -115,7 +115,7 @@ main section
 /* Responsive design for mobile devices */
 @media (max-width: 768px) {
   .container {
-    max-width: 100%;
+    max-width: 90%;
     margin: auto;
   }
 }
@@ -125,9 +125,18 @@ main section
   height: 100vh;
 }
 
+@media (max-width: 768px) {
+  .heroSection {
+    height: 120vh;
+  }
+}
+
+.sectionLeft {
+  width: 50%;
+}
+
 .sectionRight,
 .sectionLeft {
-  width: 40%;
   margin: auto;
 }
 
@@ -140,18 +149,16 @@ main section
   font-size: 2.25rem;
   font-weight: 700;
   word-spacing: 0.1rem;
+  justify-content: center;
 }
 
 .sectionLeft p {
   font-size: 1.25rem;
   color: #3b3e4d;
   margin-top: 1rem;
-  text-align: justify;
-  /* text-align-last: center; */
 }
 
 .contact-btn {
-  /* all: unset; */
   padding: 0.5rem 1rem;
   background-color: #3e21de;
   color: white;
@@ -163,6 +170,7 @@ main section
   cursor: pointer;
   text-align: center;
   text-decoration: none;
+  max-width: fit-content;
 }
 
 .contact-btn span {
@@ -170,28 +178,26 @@ main section
   font-weight: 500;
 }
 
-
 /* ------------Service section----------- */
 
-
-
 .services {
-  padding: 4rem;
+  padding: 4rem 0;
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
   background-color: #f7f7f7;
 }
 
 .services .container {
-  width: 80%;
+  /* width: 80%; */
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
 .servicesh2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: #3e21de;
 }
 
@@ -235,10 +241,6 @@ main section
   }
 }
 
-
-
-
-
 .contactUs {
   /* background-color: #f7f7f7; */
   padding: 4rem;
@@ -248,7 +250,7 @@ main section
   text-align: center;
   font-size: 2.25rem;
   font-weight: 700;
-  color: #3E21DE;
+  color: #3e21de;
   /* border-bottom: 3px solid #3e21de; */
 }
 
@@ -269,14 +271,14 @@ main section
 .address-call-email h3 {
   font-size: 1.25rem;
   font-weight: 500;
-  color: #32325D;
+  color: #32325d;
   padding: 1rem 0;
 }
 
 .address-call-email span,
 a {
   font-size: 1rem;
-  color: #343D48;
+  color: #343d48;
   font-weight: 400;
 }
 
@@ -284,9 +286,6 @@ a {
   border-left: 1px solid #3e21de;
   padding-left: 1rem;
 }
-
-
-
 
 .google-map {
   width: 100%;
@@ -307,10 +306,9 @@ a {
   }
 }
 
-
 footer {
   height: 3rem;
-  background-color: #25282C;
+  background-color: #25282c;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -443,16 +441,15 @@ footer p a {
   }
 }
 
-
-.cont{
+.cont {
   width: 30%;
   height: 50vh;
   margin: 4rem auto;
-  background-color: #3E21DE;
+  background-color: #3e21de;
   padding: 2rem;
 }
 
-.cont input{
+.cont input {
   all: unset;
   width: 100%;
   height: 100%;
@@ -475,11 +472,11 @@ input:-webkit-autofill {
 .accordion {
   width: 80%;
   margin: 20px auto;
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
   border-radius: 5px;
 }
-.accordion h2{
-  color: #3E21DE;
+.accordion h2 {
+  color: #3e21de;
   font-size: 2.5rem;
   margin-bottom: 1rem;
 }
